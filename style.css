@@ -1,19 +1,38 @@
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 400;
+    font-style: normal;
+}
 
 h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
     color: rgb(255, 0, 0);
+    /*offset x  offset y  blur radius color*/
+    text-shadow: -2px 2px 2px maroon, -4px 4px 4px gold;
 }
 h2{
-    color: rgb(0, 0, 255);
+    font-style: italic;
+    font-size: 50px;
+    color: #800090;
 }
 h3{
-    color: #0f0;
+    font-family: 'Indie Flower';
+    font-size: 35px;
+    color: rgb(255, 100, 100);
 }
 button{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 p{
+    font-family: 'Helvetica';
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 2;
+    letter-spacing: 10px;
     background-color: rgba(0, 0, 255, 0.5);
 }
 div{
