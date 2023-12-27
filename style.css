@@ -4,7 +4,9 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-
+img{
+    height: 8rem;
+}
 h1{
     font-size: 60px;
     text-align: center;
